@@ -1,0 +1,141 @@
+header {
+    background: linear-gradient(0deg, #414141 0, #373636);
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.sitetoolbar__logo, .sitetoolbar__logo_normal{
+	padding-top: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    margin-right: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fff;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*hero section*/
+.hero-content{
+	text-align: center;
+	padding: 90px 0;
+}
+.hero-content img{
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+/*about-section*/
+.about-section{
+	padding: 40px 0;
+}
+h3{
+	text-align: center;
+	font-size: 18px;
+}
+.about-span{
+	text-align: left;
+	font-size: 18px;
+	margin-top: 30px;
+	display: block;
+}
+.js-uses{
+	margin-top: 50px;
+	height: 100%;
+}
+.js-uses img{
+	border-radius: 50%;
+	max-width: 100%;
+	height: 50%;
+    object-fit: contain;
+}
+.js-uses p {
+	text-align: center;
+	padding: 0 20px;
+}
+/*footer*/
+footer{
+	padding: 40px 0;
+	color: #fff;
+	background: linear-gradient(0deg, #414141 0, #373636);
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+}
+
+footer a{
+	color: #fff;
+	transition: 0.6s;
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+footer a:hover{
+	color: #fff;
+	text-decoration: none;
+	/*transform: rotate(360deg);*/
+	letter-spacing: 10px;
+}
+
+
+.active{
+	color: red;
+}
+/*pidruchnik*/
+
+.sidebar{
+	height: 100vh;
+    border-right: 2px solid blue;
+    position: sticky;
+    top: 0;
+    padding-top: 100px;
+}
+.sidebar a{
+	display: block;
+}
+.main-content{
+}
+.main-content p{
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+.main-content h3{
+	padding-top: 40px;
+	font-size: 60px;
+	color: green;
+}
+
+.back-arrow{
+	max-width: 100px;
+	transition: 0.4s;
+}
+.back-arrow:hover{
+	margin-left: -15px;
+}
+
+.back-link-arrow{
+	position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    max-width: 120px;
+}
